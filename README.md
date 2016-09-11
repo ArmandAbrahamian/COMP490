@@ -1,5 +1,4 @@
-# COMP490:
-# Project Primer
+# COMP490: Project Primer
 
 # Summary:
 Link to website: http://www.csun.edu/~aya42388/cgi-bin/simple.cgi
