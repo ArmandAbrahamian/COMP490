@@ -4,6 +4,7 @@
 ### Project Status: COMPLETE 
 * Project has all the minimal number of features that are required and meets specification. 
 * Link to website: http://www.csun.edu/~aya42388/cgi-bin/simple.cgi
+* Link to CSS Style Sheet: http://www.csun.edu/~aya42388/cgi-bin/style.css
 
 ## Log:
 - 9/5: Created GIT Repository.
