@@ -1,4 +1,6 @@
-# COMP490: Project Primer
+# COMP490: Individual Primer Project 
+- Due Date: Sept 12, 2016
+- Submission Subject: Primer
 
 ## Summary:
 ### Project Status: COMPLETE 
