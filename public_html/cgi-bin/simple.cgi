@@ -1,5 +1,9 @@
 #! /bin/bash
 
+# Armand Abrahamian
+# COMP 490/L: Prof. Fitzgerald
+# 9/12/16
+
 # This is a little CGI program
 
 ###################################################################
@@ -25,27 +29,25 @@ echo ""
 
 # 		Link CSS style sheet.
 echo '<link rel="stylesheet" href="http://www.csun.edu/~aya42388/cgi-bin/style.css" type="text/css">'
-echo "Link to CSS sheet: http://www.csun.edu/~aya42388/cgi-bin/style.css <br /><br />"
+echo "<a href="http://www.csun.edu/~aya42388/cgi-bin/style.css">Press here for link to CSS sheet.</a><br /><br />"
 
 # 		Start HTML Content
 echo "<head><title>Welcome to Armand's CGI Interface!</title></head>"
 echo "<tt><strong>Time: </strong>"
 echo "<tt style=\"text-align:center; color:green\">"
 date
-echo "</tt></tt><br /><br />"
+echo "</tt></tt><br />"
 
-echo '<body>'
-echo 'Environment Variables:'
-echo '<pre>'
-/usr/bin/env
-echo '</pre>'
-echo '</body>'
-
+#echo '<body>'
+#echo 'Environment Variables:'
+#echo '<pre>'
+#/usr/bin/env
+#echo '</pre>'
+#echo '</body>'
 
 #echo $SCRIPT_NAME
 #echo $SERVER_NAME
 #echo $SERVER_PORT
-echo "<br />"
 echo "<p>" 
 echo "URI: "
 echo $REQUEST_URI
@@ -58,8 +60,9 @@ echo "   $QUERY_STRING"
 #echo $output
 echo "<br /><br />"
 
-echo "Extracting information from http://www.csun.edu/engineering-computer-science: "
-echo "<br />"
+echo "Extracting information from <a href="http://www.csun.edu/engineering-computer-science">http://www.csun.edu/engineering-computer-science</a>:"
+echo "<br /><br />"
+
 /usr/bin/curl -o /tmp/csun-aya42388   http://www.csun.edu/engineering-computer-science
 cat /tmp/csun-aya42388
 
